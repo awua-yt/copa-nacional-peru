@@ -184,18 +184,29 @@ export default function HomePage() {
 
       <main className="max-w-7xl w-full mx-auto space-y-12">
         <header className="text-center space-y-2 relative">
-            <div className="absolute top-0 right-0 flex items-center gap-2">
-                <Sun className="h-5 w-5"/>
-                <Switch
-                    checked={theme === 'dark'}
-                    onCheckedChange={toggleTheme}
-                    aria-label="Toggle theme"
-                />
-                <Moon className="h-5 w-5"/>
-            </div>
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tighter text-accent font-headline pt-10">Simulador de Copa</h1>
-          <p className="text-muted-foreground md:text-lg">Configura los bombos y elige el formato del torneo</p>
-        </header>
+    <div className="absolute top-0 right-0 flex items-center gap-2">
+        <Sun className="h-5 w-5"/>
+        <Switch
+            checked={theme === 'dark'}
+            onCheckedChange={toggleTheme}
+            aria-label="Toggle theme"
+        />
+        <Moon className="h-5 w-5"/>
+    </div>
+  <h1 className="text-4xl md:text-6xl font-bold tracking-tighter text-accent font-headline pt-10">Simulador de Copa</h1>
+  <p className="text-muted-foreground md:text-lg">Configura los bombos y elige el formato del torneo</p>
+  <a 
+    href="https://youtube.com/@awua-17?si=izEqymhaEqyINnfx" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors hover:underline mt-2"
+  >
+    <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+    Ver tutoriales en YouTube
+  </a>
+</header>
 
         <section id="bombos">
           <h2 className="text-3xl font-bold mb-6 font-headline text-center">Configuración de Bombos</h2>
