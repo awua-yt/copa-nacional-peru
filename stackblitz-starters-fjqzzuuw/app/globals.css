@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 3%;
+  --foreground: 0 0% 98%;
+  --card: 0 0% 10%;
+  --card-foreground: 0 0% 98%;
+  --popover: 0 0% 10%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 45 93% 47%;
+  --primary-foreground: 0 0% 8%;
+  --secondary: 0 0% 20%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 0 0% 30%;
+  --muted-foreground: 0 0% 70%;
+  --accent: 45 93% 47%;
+  --accent-foreground: 0 0% 8%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 30 30% 30%;
+  --input: 0 0% 15%;
+  --ring: 45 93% 47%;
+  --radius: 0.5rem;
+  --chart-1: 45 93% 47%;
+  --chart-2: 30 100% 50%;
+  --chart-3: 0 84% 60%;
+  --chart-4: 200 100% 50%;
+  --chart-5: 280 100% 50%;
+  --sidebar-background: 0 0% 10%;
+  --sidebar-foreground: 0 0% 98%;
+  --sidebar-primary: 45 93% 47%;
+  --sidebar-primary-foreground: 0 0% 8%;
+  --sidebar-accent: 30 100% 50%;
+  --sidebar-accent-foreground: 0 0% 8%;
+  --sidebar-border: 30 30% 30%;
+  --sidebar-ring: 45 93% 47%;
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-feature-settings: "rounding-mode" 0;
+}
