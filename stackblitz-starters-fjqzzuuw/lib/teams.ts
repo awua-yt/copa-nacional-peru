@@ -23,54 +23,54 @@ const bombo1: Team[] = [
   {
     name: 'Alianza Lima',
     stats: {
-      level: 9.5,
-      goalCapacity: 8.5,
-      defenseCapacity: 9.9,
+      level: 9.7,
+      goalCapacity: 9.0,
+      defenseCapacity: 9.0,
       hierarchy: 10.0,
     },
   },
   {
     name: 'Sporting Cristal',
     stats: {
-      level: 9.2,
-      goalCapacity: 9.2,
-      defenseCapacity: 7.0,
+      level: 9.6,
+      goalCapacity: 9.0,
+      defenseCapacity: 8.8,
       hierarchy: 9.8,
     },
   },
   {
     name: 'Melgar',
     stats: {
-      level: 8.8,
-      goalCapacity: 8.2,
-      defenseCapacity: 8.0,
+      level: 8.5,
+      goalCapacity: 8.0,
+      defenseCapacity: 7.5,
       hierarchy: 8.5,
     },
   },
   {
     name: 'Cusco FC',
     stats: {
-      level: 8.5,
-      goalCapacity: 9.3,
-      defenseCapacity: 5.5,
+      level: 8.9,
+      goalCapacity: 9.0,
+      defenseCapacity: 8.5,
       hierarchy: 5.0,
     },
   },
   {
     name: 'Alianza Atlético',
     stats: {
-      level: 8.4,
-      goalCapacity: 8.0,
-      defenseCapacity: 4.5,
+      level: 8.0,
+      goalCapacity: 6.0,
+      defenseCapacity: 6.5,
       hierarchy: 6.0,
     },
   },
   {
     name: 'Sport Huancayo',
     stats: {
-      level: 8.2,
-      goalCapacity: 7.8,
-      defenseCapacity: 7.5,
+      level: 8.1,
+      goalCapacity: 7.1,
+      defenseCapacity: 7.1,
       hierarchy: 6.5,
     },
   },
@@ -78,8 +78,8 @@ const bombo1: Team[] = [
     name: 'Deportivo Garcilaso',
     stats: {
       level: 8.0,
-      goalCapacity: 8.1,
-      defenseCapacity: 5.0,
+      goalCapacity: 6.1,
+      defenseCapacity: 8.0,
       hierarchy: 3.0,
     },
   },
@@ -87,86 +87,77 @@ const bombo1: Team[] = [
     name: 'ADT',
     stats: {
       level: 7.8,
-      goalCapacity: 7.5,
-      defenseCapacity: 4.0,
+      goalCapacity: 6.5,
+      defenseCapacity: 6.0,
       hierarchy: 3.5,
     },
   },
   {
     name: 'Cienciano',
     stats: {
-      level: 7.7,
+      level: 7.9,
       goalCapacity: 7.0,
       defenseCapacity: 6.5,
-      hierarchy: 8.8,
+      hierarchy: 8.9,
     },
   },
   {
     name: 'Chankas CYC',
     stats: {
-      level: 7.5,
+      level: 7.4,
       goalCapacity: 7.4,
-      defenseCapacity: 6.4,
+      defenseCapacity: 6.0,
       hierarchy: 2.5,
     },
   },
   {
     name: 'Atlético Grau',
     stats: {
-      level: 7.4,
+      level: 7.0,
       goalCapacity: 7.2,
-      defenseCapacity: 6.8,
+      defenseCapacity: 5.8,
       hierarchy: 5.5,
     },
   },
   {
     name: 'Sport Boys',
     stats: {
-      level: 7.3,
-      goalCapacity: 7.8,
-      defenseCapacity: 5.2,
-      hierarchy: 8.2,
+      level: 7.5,
+      goalCapacity: 7.1,
+      defenseCapacity: 6.2,
+      hierarchy: 8.0,
     },
   },
   {
     name: 'UTC Cajamarca',
     stats: {
-      level: 7.1,
-      goalCapacity: 5.5,
-      defenseCapacity: 2.5,
-      hierarchy: 5.8,
+      level: 10.0,
+      goalCapacity: 10.0,
+      defenseCapacity: 10.0,
+      hierarchy: 10.0,
     },
   },
   {
     name: 'Juan Pablo II College',
     stats: {
-      level: 7.0,
+      level: 5.0,
       goalCapacity: 6.0,
-      defenseCapacity: 5.0,
+      defenseCapacity: 4.5,
       hierarchy: 1.5,
     },
   },
   {
-    name: 'Binacional',
+    name: 'Comerciantes Unidos',
     stats: {
       level: 6.8,
-      goalCapacity: 5.8,
-      defenseCapacity: 3.5,
-      hierarchy: 6.2,
+      goalCapacity: 6.2,
+      defenseCapacity: 5.5,
+      hierarchy: 3.0,
     },
   },
 ];
 
 const bombo2: Team[] = [
-  {
-    name: 'Comerciantes Unidos',
-    stats: {
-      level: 6.8,
-      goalCapacity: 6.9,
-      defenseCapacity: 6.5,
-      hierarchy: 4.0,
-    },
-  },
   {
     name: 'FC Cajamarca',
     stats: {
@@ -294,12 +285,21 @@ const bombo2: Team[] = [
     },
   },
   {
-    name: 'Deportivo Coopsol',
+    name: 'Estudiantil CNI de Iquitos',
     stats: {
-      level: 3.8,
-      goalCapacity: 3.9,
-      defenseCapacity: 2.8,
-      hierarchy: 4.5,
+      level: 4.2,
+      goalCapacity: 4.0,
+      defenseCapacity: 3.5,
+      hierarchy: 6.8,
+    },
+  },
+  {
+    name: 'Sport Huancayo Reserva',
+    stats: {
+      level: 4.5,
+      goalCapacity: 5.3,
+      defenseCapacity: 5.8,
+      hierarchy: 1.0,
     },
   },
 ];
@@ -351,12 +351,12 @@ const bombo3: Team[] = [
     },
   },
   {
-    name: 'Estudiantil CNI de Iquitos',
+    name: 'Deportivo Coopsol',
     stats: {
-      level: 4.2,
-      goalCapacity: 4.0,
-      defenseCapacity: 3.5,
-      hierarchy: 6.8,
+      level: 3.8,
+      goalCapacity: 3.9,
+      defenseCapacity: 2.8,
+      hierarchy: 4.5,
     },
   },
   {
@@ -468,12 +468,12 @@ const bombo4: Team[] = [
     },
   },
   {
-    name: 'Sport Bolognesi',
+    name: 'ANBA Perú',
     stats: {
-      level: 2.7,
+      level: 1.6,
       goalCapacity: 3.0,
       defenseCapacity: 2.5,
-      hierarchy: 6.5,
+      hierarchy: 1.0,
     },
   },
   {
@@ -486,11 +486,11 @@ const bombo4: Team[] = [
     },
   },
   {
-    name: 'Melgar Reserva',
+    name: 'Universitario Reserva',
     stats: {
       level: 3.5,
-      goalCapacity: 4.3,
-      defenseCapacity: 2.8,
+      goalCapacity: 5.3,
+      defenseCapacity: 4.9,
       hierarchy: 1.0,
     },
   },
@@ -558,9 +558,9 @@ const bombo4: Team[] = [
     },
   },
   {
-    name: 'Juventud Santo Domingo',
+    name: 'ASA FC',
     stats: {
-      level: 1.6,
+      level: 1.3,
       goalCapacity: 2.0,
       defenseCapacity: 2.5,
       hierarchy: 1.0,
@@ -576,9 +576,9 @@ const bombo4: Team[] = [
     },
   },
   {
-    name: 'Diablos Rojos de Juliaca',
+    name: 'Juventud Huracán',
     stats: {
-      level: 1.2,
+      level: 1.4,
       goalCapacity: 1.8,
       defenseCapacity: 2.5,
       hierarchy: 1.2,
@@ -587,17 +587,17 @@ const bombo4: Team[] = [
   {
     name: 'AD Cantolao',
     stats: {
-      level: 1.5,
+      level: 2.5,
       goalCapacity: 1.2,
       defenseCapacity: 2.5,
       hierarchy: 4.5,
     },
   },
   {
-    name: 'Rauker FC de Pucallpa',
+    name: 'AD Tahuishco',
     stats: {
-      level: 0.5,
-      goalCapacity: 0.5,
+      level: 1.5,
+      goalCapacity: 1.9,
       defenseCapacity: 2.5,
       hierarchy: 1.0,
     },
@@ -611,3 +611,4 @@ const bombo4: Team[] = [
 }));
 
 export const bombos = [bombo1, bombo2, bombo3, bombo4];
+
