@@ -1,13 +1,7 @@
 // src/contexts/ThemeContext.tsx
 'use client';
 
-import React, {
-  createContext,
-  useState,
-  useEffect,
-  useContext,
-  ReactNode,
-} from 'react';
+import React, { createContext, useState, useEffect, useContext, ReactNode } from 'react';
 
 type ThemeContextType = {
   theme: string;
