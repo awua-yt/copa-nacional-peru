@@ -204,7 +204,7 @@ export default function HomePage() {
     <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
       <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
     </svg>
-    Ver tutoriales en YouTube
+    Canal de YouTube ^^
   </a>
 </header>
 
@@ -320,8 +320,77 @@ export default function HomePage() {
               </Button>
             </CardContent>
           </Card>
-        </div>
+       </div>
       </main>
+
+      <footer className="w-full border-t border-border mt-16 py-8 bg-card/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+          <div className="flex flex-col items-center space-y-6">
+            {/* Créditos */}
+            <div className="text-center">
+              <p className="text-lg font-semibold text-foreground mb-2">
+                Creado por <span className="text-accent font-bold">Awua</span>
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Simulador de Copa - Torneos de Fútbol
+              </p>
+            </div>
+
+            {/* Enlaces */}
+            <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+              {/* Canal de YouTube */}
+              <a 
+                href="https://youtube.com/@awua-17?si=izEqymhaEqyINnfx" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors hover:underline"
+              >
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+                Canal de YouTube
+              </a>
+
+              <span className="hidden sm:inline text-muted-foreground">•</span>
+
+              {/* Video Copa Nacional */}
+              <a 
+                href="https://youtu.be/CfnAKjy8Ego?si=pSFNamIw0OR0f8aH" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors hover:underline"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                Copa Nacional Perú
+              </a>
+
+              <span className="hidden sm:inline text-muted-foreground">•</span>
+
+              {/* Video Copa Perú */}
+              <a 
+                href="https://youtu.be/BbSvvePmq6A?si=K30tXXoavqS_QjYi" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors hover:underline"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                Simulación Copa Perú
+              </a>
+            </div>
+
+            {/* Copyright */}
+            <div className="text-xs text-muted-foreground text-center pt-4 border-t border-border/50 w-full max-w-md">
+              <p>© {new Date().getFullYear()} Awua. Todos los derechos reservados.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
