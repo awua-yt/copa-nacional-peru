@@ -14,6 +14,15 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8VSV63E06"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-Y8VSV63E06');
+        </script>
         <title>SorteoDeBombos</title>
         <meta name="description" content="Simulador de sorteo de bombos y partidos de fútbol." />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
